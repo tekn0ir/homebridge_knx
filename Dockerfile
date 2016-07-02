@@ -5,7 +5,7 @@ MAINTAINER Anders Åslund <anders.aslund@teknoir.se>
 # Update packages
 RUN apt-get update && \
   apt-get upgrade -y && \
-  apt-get install -y libavahi-compat-libdnssd-dev && \
+  apt-get install -y libavahi-compat-libdnssd-dev dbus && \
   apt-get clean -y && \
   apt-get autoclean -y && \
   apt-get autoremove
@@ -20,4 +20,7 @@ COPY KNX-sample-config.json .homebridge/config.json
 
 EXPOSE 51826
 
-CMD ["homebridge"]
+RUN sed -i "s/rlimit-nproc=3/#rlimit-nproc=3/" /etc/avahi/avahi-daemon.conf
+
+CMD dbus-daemon --system && avahi-daemon -D && homebridge
+
