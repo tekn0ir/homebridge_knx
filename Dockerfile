@@ -13,6 +13,7 @@ RUN apt-get update && \
 RUN npm install -g homebridge && npm install -g homebridge-knx
 
 # setup
+RUN mkdir -p /var/run/dbus
 WORKDIR /root
 RUN mkdir .homebridge
 COPY KNX-sample-config.json .homebridge/config.json
