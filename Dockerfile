@@ -10,17 +10,19 @@ RUN apt-get update && \
   apt-get autoclean -y && \
   apt-get autoremove
 
-RUN npm install -g homebridge && npm install -g homebridge-knx
-
-# setup
 RUN mkdir -p /var/run/dbus
-WORKDIR /root
+RUN chown node.root /var/run/dbus
+RUN sed -i "s/rlimit-nproc=3/#rlimit-nproc=3/" /etc/avahi/avahi-daemon.conf
+
+USER node
+WORKDIR /home/node
+RUN npm install homebridge && npm install homebridge-knx
+
 RUN mkdir .homebridge
-COPY KNX-sample-config.json .homebridge/config.json
+COPY KNX-sample-config.json .homebridge/knx_config.json
 
 EXPOSE 3000 5353 51826
 
-RUN sed -i "s/rlimit-nproc=3/#rlimit-nproc=3/" /etc/avahi/avahi-daemon.conf
-
-CMD dbus-daemon --system && avahi-daemon -D && homebridge
-
+USER root
+COPY start.sh /usr/bin/start.sh
+CMD start.sh
