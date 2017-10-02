@@ -1,4 +1,4 @@
-FROM node:wheezy
+FROM node:stretch
 
 MAINTAINER Anders Åslund <anders.aslund@teknoir.se>
 
@@ -18,7 +18,7 @@ WORKDIR /root
 RUN mkdir .homebridge
 COPY KNX-sample-config.json .homebridge/config.json
 
-EXPOSE 51826
+EXPOSE 3000 5353 51826
 
 RUN sed -i "s/rlimit-nproc=3/#rlimit-nproc=3/" /etc/avahi/avahi-daemon.conf
 
