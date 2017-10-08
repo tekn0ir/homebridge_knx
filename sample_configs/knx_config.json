@@ -1,0 +1,102 @@
+{
+    "knxd_ip": "10.0.1.8",
+    "knxd_port": 6720,
+    "AllowWebserver": true,
+    "WebserverPort": 18082,
+    "Devices": [
+        {
+            "DeviceName": "Taklampan",
+            "Services": [
+                {
+                    "ServiceType": "Lightbulb",
+                    "ServiceName": "Taklampan över trappan",
+                    "Characteristics": [
+                        {
+                            "Type": "On",
+                            "Set": [
+                                "1/0/16"
+                            ],
+                            "Listen": [
+                                "1/4/16"
+                            ]
+                        },
+                        {
+                            "Type": "Brightness",
+                            "Set": [
+                                "1/1/14"
+                            ],
+                            "Listen": [
+                                "1/3/14"
+                            ]
+                        }
+                    ],
+                    "subtype": "SUB_60c54d6c-6c3c-4056-b6d3-4b2e1066be27"
+                }
+            ],
+            "UUID": "0e2fae4e-cf21-41fb-a420-71285b0527a8"
+        },
+        {
+            "DeviceName": "Garderob",
+            "Services": [
+                {
+                    "ServiceType": "Lightbulb",
+                    "ServiceName": "Garderob",
+                    "Characteristics": [
+                        {
+                            "Type": "On",
+                            "Set": [
+                                "1/0/15"
+                            ],
+                            "Listen": [
+                                "1/4/15"
+                            ]
+                        },
+                        {
+                            "Type": "Brightness",
+                            "Set": [
+                                "1/1/6"
+                            ],
+                            "Listen": [
+                                "1/3/6"
+                            ]
+                        }
+                    ],
+                    "subtype": "SUB_14c25782-51d2-45c1-9c49-67cac6a2c494"
+                }
+            ],
+            "UUID": "85a52648-60be-450c-bae5-ffa090a6f50e"
+        },
+        {
+            "DeviceName": "Sovrum fönster",
+            "Services": [
+                {
+                    "ServiceType": "Lightbulb",
+                    "ServiceName": "Sovrum fönster",
+                    "Characteristics": [
+                        {
+                            "Type": "On",
+                            "Set": [
+                                "1/0/13"
+                            ],
+                            "Listen": [
+                                "1/4/13"
+                            ]
+                        },
+                        {
+                            "Type": "Brightness",
+                            "Set": [
+                                "1/1/8"
+                            ],
+                            "Listen": [
+                                "1/3/8"
+                            ]
+                        }
+                    ],
+                    "subtype": "SUB_44bf290b-a36a-4076-91e4-d33ff758ae51"
+                }
+            ],
+            "UUID": "90726a70-fb00-437f-a7ce-93000ea16066"
+        }
+    ],
+    "GroupAddresses": []
+}
