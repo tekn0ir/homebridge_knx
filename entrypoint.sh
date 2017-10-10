@@ -9,6 +9,8 @@ USER_ID=${USER_ID:-9001}
 DOCKER_GID=${DOCKER_GID:-9002}
 USER_NAME=$GOSU_NAME
 
+rm -f /var/run/dbus/pid | echo 'PID did not exist---so its fine'
+
 dbus-daemon --system
 avahi-daemon -D
 exec gosu $USER_ID:$DOCKER_GID "$@"
