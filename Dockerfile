@@ -20,25 +20,14 @@ RUN apk add --no-cache git python make g++ avahi-compat-libdns_sd avahi-dev dbus
   && npm set global-style=true \
   && npm set package-lock=false
 
-#RUN mkdir -p /var/run/dbus
-#RUN chown node.root /var/run/dbus
-#RUN sed -i "s/rlimit-nproc=3/#rlimit-nproc=3/" /etc/avahi/avahi-daemon.conf
-
 RUN npm install --unsafe-perm --verbose -g homebridge && npm install --unsafe-perm --verbose -g homebridge-knx
 
-EXPOSE 3000 5353 51826
+COPY root /
 
-ENV GOSU_NAME docker
-
-COPY entrypoint.sh /
-RUN chmod +x /entrypoint.sh  \
-    && sed -i -e 's/\r$//' /entrypoint.sh
-
-COPY cmd.sh /
-RUN chmod +x /cmd.sh  \
-    && sed -i -e 's/\r$//' /cmd.sh
+ARG AVAHI
+RUN [ "${AVAHI:-1}" = "1" ] || (echo "Removing Avahi" && \
+  rm -rf /etc/services.d/avahi \
+    /etc/services.d/dbus \
+    /etc/cont-init.d/40-dbus-avahi)
 
 RUN [ "cross-build-end" ]
-
-ENTRYPOINT ["/entrypoint.sh"]
-CMD ["/cmd.sh"]
