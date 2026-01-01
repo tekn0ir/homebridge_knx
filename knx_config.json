@@ -1,0 +1,1002 @@
+{
+  "knxd_ip": "localhost",
+  "knxd_port": 6722,
+  "Devices": [
+    {
+      "DeviceName": "Taklampan",
+      "Services": [
+        {
+          "ServiceType": "Lightbulb",
+          "ServiceName": "Taklampan över trappan",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/16"
+              ],
+              "Listen": [
+                "1/4/16"
+              ],
+              "DPT": "DPT1"
+            },
+            {
+              "Type": "Brightness",
+              "Set": [
+                "1/1/14"
+              ],
+              "Listen": [
+                "1/3/14"
+              ],
+              "DPT": "DPT5.001"
+            }
+          ],
+          "subtype": "SUB_3e8b0a2c-241c-4b43-8b7b-be40d6ea21fd"
+        }
+      ],
+      "UUID": "f8289a56-9760-473b-8ccc-5256bc52957a"
+    },
+    {
+      "DeviceName": "Garderob",
+      "Services": [
+        {
+          "ServiceType": "Lightbulb",
+          "ServiceName": "Garderob",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/15"
+              ],
+              "Listen": [
+                "1/4/15"
+              ],
+              "DPT": "DPT1"
+            },
+            {
+              "Type": "Brightness",
+              "Set": [
+                "1/1/6"
+              ],
+              "Listen": [
+                "1/3/6"
+              ],
+              "DPT": "DPT5.001"
+            }
+          ],
+          "subtype": "SUB_8b2cb5b3-12d8-469b-b2a9-16af851ba3ac"
+        }
+      ],
+      "UUID": "23f37776-ce32-4695-b9f9-497e3a6d0777"
+    },
+    {
+      "DeviceName": "Sovrum fönster",
+      "Services": [
+        {
+          "ServiceType": "Lightbulb",
+          "ServiceName": "Sovrum fönster",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/13"
+              ],
+              "Listen": [
+                "1/4/13"
+              ],
+              "DPT": "DPT1"
+            },
+            {
+              "Type": "Brightness",
+              "Set": [
+                "1/1/8"
+              ],
+              "Listen": [
+                "1/3/8"
+              ],
+              "DPT": "DPT5.001"
+            }
+          ],
+          "subtype": "SUB_a45f4cd1-025b-493c-b41e-acda53f855cf"
+        }
+      ],
+      "UUID": "a0810bc1-8667-45d5-a402-e8aa0ebc32d0"
+    },
+    {
+      "DeviceName": "Kök tak",
+      "Services": [
+        {
+          "ServiceType": "Lightbulb",
+          "ServiceName": "Kök tak över köksö",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/5"
+              ],
+              "Listen": [
+                "1/4/5"
+              ],
+              "DPT": "DPT1"
+            },
+            {
+              "Type": "Brightness",
+              "Set": [
+                "1/1/3"
+              ],
+              "Listen": [
+                "1/3/3"
+              ],
+              "DPT": "DPT5.001"
+            }
+          ],
+          "subtype": "SUB_c7759c4f-78f2-4fc6-a591-355b2a4f3434"
+        }
+      ],
+      "UUID": "1d255bda-380f-406a-8401-64155ced03d5"
+    },
+    {
+      "DeviceName": "Vardagsrum väggspott",
+      "Services": [
+        {
+          "ServiceType": "Lightbulb",
+          "ServiceName": "Väggspottar längs med vardagsrum och kök",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/6"
+              ],
+              "Listen": [
+                "1/4/6"
+              ],
+              "DPT": "DPT1"
+            },
+            {
+              "Type": "Brightness",
+              "Set": [
+                "1/1/4"
+              ],
+              "Listen": [
+                "1/3/4"
+              ],
+              "DPT": "DPT5.001"
+            }
+          ],
+          "subtype": "SUB_363522a2-2967-4bab-b3a8-bd1913bfabfb"
+        }
+      ],
+      "UUID": "1be188b3-7649-4cd5-9f70-9ec843ad0e89"
+    },
+    {
+      "DeviceName": "Vardagsrum fönster",
+      "Services": [
+        {
+          "ServiceType": "Lightbulb",
+          "ServiceName": "Vardagsrum fönster",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/11"
+              ],
+              "Listen": [
+                "1/4/11"
+              ],
+              "DPT": "DPT1"
+            },
+            {
+              "Type": "Brightness",
+              "Set": [
+                "1/1/9"
+              ],
+              "Listen": [
+                "1/3/9"
+              ],
+              "DPT": "DPT5.001"
+            }
+          ],
+          "subtype": "SUB_a327b60b-89d8-4f6b-9302-d9d94a8c0792"
+        }
+      ],
+      "UUID": "3bcffd4d-6a5a-4f5e-bc3a-0bbfc555fe7d"
+    },
+    {
+      "DeviceName": "Kök fönster",
+      "Services": [
+        {
+          "ServiceType": "Lightbulb",
+          "ServiceName": "Kök fönster",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/10"
+              ],
+              "Listen": [
+                "1/4/10"
+              ],
+              "DPT": "DPT1"
+            },
+            {
+              "Type": "Brightness",
+              "Set": [
+                "1/1/10"
+              ],
+              "Listen": [
+                "1/3/10"
+              ],
+              "DPT": "DPT5.001"
+            }
+          ],
+          "subtype": "SUB_802ec16e-e278-46ef-998b-d4bc4c42d237"
+        }
+      ],
+      "UUID": "e1f5fce8-d067-4766-8775-b2c4806df584"
+    },
+    {
+      "DeviceName": "Kontor & Altan fönster",
+      "Services": [
+        {
+          "ServiceType": "Lightbulb",
+          "ServiceName": "Kontor & Altan fönster",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/12"
+              ],
+              "Listen": [
+                "1/4/12"
+              ],
+              "DPT": "DPT1"
+            },
+            {
+              "Type": "Brightness",
+              "Set": [
+                "1/1/11"
+              ],
+              "Listen": [
+                "1/3/11"
+              ],
+              "DPT": "DPT5.001"
+            }
+          ],
+          "subtype": "SUB_f18a8e80-9754-4846-867f-99427216535d"
+        }
+      ],
+      "UUID": "0f79bbf6-b396-40d1-8e18-3e1b9ed04817"
+    },
+    {
+      "DeviceName": "Altan Tak",
+      "Services": [
+        {
+          "ServiceType": "Lightbulb",
+          "ServiceName": "Altan Tak",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/2"
+              ],
+              "Listen": [
+                "1/4/2"
+              ],
+              "DPT": "DPT1"
+            },
+            {
+              "Type": "Brightness",
+              "Set": [
+                "1/1/12"
+              ],
+              "Listen": [
+                "1/3/12"
+              ],
+              "DPT": "DPT5.001"
+            }
+          ],
+          "subtype": "SUB_29a345d5-155a-418c-b245-200edef457e3"
+        }
+      ],
+      "UUID": "9e6f4db5-efd2-4e00-a90d-158578260290"
+    },
+    {
+      "DeviceName": "Köksbord",
+      "Services": [
+        {
+          "ServiceType": "Lightbulb",
+          "ServiceName": "Köksbord",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/1"
+              ],
+              "Listen": [
+                "1/4/1"
+              ],
+              "DPT": "DPT1"
+            },
+            {
+              "Type": "Brightness",
+              "Set": [
+                "1/1/13"
+              ],
+              "Listen": [
+                "1/3/13"
+              ],
+              "DPT": "DPT5.001"
+            }
+          ],
+          "subtype": "SUB_2e1245b1-fa96-4f86-bcdf-a168360371c4"
+        }
+      ],
+      "UUID": "0dcf2158-6b47-46c9-858c-4942f6dae93a"
+    },
+    {
+      "DeviceName": "Tvättstuga",
+      "Services": [
+        {
+          "ServiceType": "Lightbulb",
+          "ServiceName": "Tvättstuga tak",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/7"
+              ],
+              "Listen": [
+                "1/4/7"
+              ],
+              "DPT": "DPT1"
+            },
+            {
+              "Type": "Brightness",
+              "Set": [
+                "1/1/5"
+              ],
+              "Listen": [
+                "1/3/5"
+              ],
+              "DPT": "DPT5.001"
+            }
+          ],
+          "subtype": "SUB_fdcc55c8-1720-4bf6-80f0-19765b5da94f"
+        }
+      ],
+      "UUID": "13f0e8d2-193b-44e6-a410-b5c2ebfca06d"
+    },
+    {
+      "DeviceName": "Toalett tak",
+      "Services": [
+        {
+          "ServiceType": "Lightbulb",
+          "ServiceName": "Toalett tak",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/4"
+              ],
+              "Listen": [
+                "1/4/4"
+              ],
+              "DPT": "DPT1"
+            },
+            {
+              "Type": "Brightness",
+              "Set": [
+                "1/1/2"
+              ],
+              "Listen": [
+                "1/3/2"
+              ],
+              "DPT": "DPT5.001"
+            }
+          ],
+          "subtype": "SUB_0258887e-7734-4321-9637-364ea8b62b70"
+        }
+      ],
+      "UUID": "d6a32699-94d9-48ca-9df4-be50616c9a32"
+    },
+    {
+      "DeviceName": "Toalett vägg",
+      "Services": [
+        {
+          "ServiceType": "Lightbulb",
+          "ServiceName": "Toalett vägg",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/3"
+              ],
+              "Listen": [
+                "1/4/3"
+              ],
+              "DPT": "DPT1"
+            }
+          ],
+          "subtype": "SUB_aa00b4b9-a099-41a3-8848-c2d03d01a4b3"
+        }
+      ],
+      "UUID": "489183b3-61d0-4ddb-ab78-d17bada06123"
+    },
+    {
+      "DeviceName": "Utomhus Baksidan",
+      "Services": [
+        {
+          "ServiceType": "Lightbulb",
+          "ServiceName": "Utomhus Baksidan",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/8"
+              ],
+              "Listen": [
+                "1/4/8"
+              ],
+              "DPT": "DPT1"
+            }
+          ],
+          "subtype": "SUB_6b32bc97-4b24-44db-aa2c-b904e70eb886"
+        }
+      ],
+      "UUID": "19bb24e3-fc95-4d4c-8f72-d14ab0cfa27f"
+    },
+    {
+      "DeviceName": "Garage ute",
+      "Services": [
+        {
+          "ServiceType": "Lightbulb",
+          "ServiceName": "Garage ute",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/9"
+              ],
+              "Listen": [
+                "1/4/9"
+              ],
+              "DPT": "DPT1"
+            }
+          ],
+          "subtype": "SUB_9c4e8a5c-d863-4795-ad53-2101a6d9bf22"
+        }
+      ],
+      "UUID": "62f3cc42-a23f-42df-be06-90727cdfd051"
+    },
+    {
+      "DeviceName": "Lilla Hallen & Skafferi",
+      "Services": [
+        {
+          "ServiceType": "Lightbulb",
+          "ServiceName": "Lilla Hallen & Skafferi",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/35"
+              ],
+              "Listen": [
+                "1/4/35"
+              ],
+              "DPT": "DPT1"
+            }
+          ],
+          "subtype": "SUB_013ddc5a-fc54-4c30-8509-c10d74b81d11"
+        }
+      ],
+      "UUID": "990b935b-a32e-43be-8fef-becd17094de4"
+    },
+    {
+      "DeviceName": "Uttag tvättbänk",
+      "Services": [
+        {
+          "ServiceType": "Outlet",
+          "ServiceName": "Uttag tvättbänk",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/20"
+              ],
+              "Listen": [
+                "1/4/20"
+              ],
+              "DPT": "DPT1"
+            }
+          ],
+          "subtype": "SUB_9907231d-2044-47bf-9367-7a0c4a1fb71f"
+        }
+      ],
+      "UUID": "2f9a2962-0da8-4dd5-b8b9-3c6effe230ec"
+    },
+    {
+      "DeviceName": "Uttag strykbräda",
+      "Services": [
+        {
+          "ServiceType": "Outlet",
+          "ServiceName": "Uttag strykbräda",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/26"
+              ],
+              "Listen": [
+                "1/4/26"
+              ],
+              "DPT": "DPT1"
+            }
+          ],
+          "subtype": "SUB_26c949ee-e146-45d6-b5bc-d0c737980dc1"
+        }
+      ],
+      "UUID": "1a746d46-ebde-40bc-a7bf-53c8d738daa0"
+    },
+    {
+      "DeviceName": "Toalett uttag",
+      "Services": [
+        {
+          "ServiceType": "Outlet",
+          "ServiceName": "Toalett uttag och lampa",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/21"
+              ],
+              "Listen": [
+                "1/4/21"
+              ],
+              "DPT": "DPT1"
+            }
+          ],
+          "subtype": "SUB_401b1ff9-b893-422b-81a5-8c2c2d326ece"
+        }
+      ],
+      "UUID": "ce7c9963-d57d-4c56-a736-e3a0f0fe1e7a"
+    },
+    {
+      "DeviceName": "Uttag vardagsrum",
+      "Services": [
+        {
+          "ServiceType": "Outlet",
+          "ServiceName": "Uttag vardagsrum",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/27"
+              ],
+              "Listen": [
+                "1/4/27"
+              ],
+              "DPT": "DPT1"
+            }
+          ],
+          "subtype": "SUB_3f7e8230-905f-49ee-a2be-9243f8f5cecd"
+        }
+      ],
+      "UUID": "b1320500-bd05-43c5-95f1-b60b0c0addff"
+    },
+    {
+      "DeviceName": "Uttag köksbord",
+      "Services": [
+        {
+          "ServiceType": "Outlet",
+          "ServiceName": "Uttag köksbord",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/28"
+              ],
+              "Listen": [
+                "1/4/28"
+              ],
+              "DPT": "DPT1"
+            }
+          ],
+          "subtype": "SUB_dae6ed1f-7abf-46f8-abd6-2fe6029cf595"
+        }
+      ],
+      "UUID": "9f2c6f95-d77a-4f88-82b4-dc87340a8ce1"
+    },
+    {
+      "DeviceName": "Uttag sovrum",
+      "Services": [
+        {
+          "ServiceType": "Outlet",
+          "ServiceName": "Uttag sovrum",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/31"
+              ],
+              "Listen": [
+                "1/4/31"
+              ],
+              "DPT": "DPT1"
+            }
+          ],
+          "subtype": "SUB_416304c8-2233-458a-8151-de06fd07e333"
+        }
+      ],
+      "UUID": "a6a5a3af-29f7-42b3-a04b-a1c7ba8ee395"
+    },
+    {
+      "DeviceName": "Uttag kök höger",
+      "Services": [
+        {
+          "ServiceType": "Outlet",
+          "ServiceName": "Uttag kök höger",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/32"
+              ],
+              "Listen": [
+                "1/4/32"
+              ],
+              "DPT": "DPT1"
+            }
+          ],
+          "subtype": "SUB_f7e7c59d-bf4d-47a0-834c-95e398a584f2"
+        }
+      ],
+      "UUID": "b18b5be4-ab9e-4cb6-9e7b-fdd9a19b15cd"
+    },
+    {
+      "DeviceName": "Uttag kök vänster",
+      "Services": [
+        {
+          "ServiceType": "Outlet",
+          "ServiceName": "Uttag kök vänster",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/33"
+              ],
+              "Listen": [
+                "1/4/33"
+              ],
+              "DPT": "DPT1"
+            }
+          ],
+          "subtype": "SUB_aa5bf847-34cc-41f7-bac8-9959ebbf964b"
+        }
+      ],
+      "UUID": "607c5601-f859-4f4c-a3dd-fe1a1f0e550b"
+    },
+    {
+      "DeviceName": "Uttag kontor",
+      "Services": [
+        {
+          "ServiceType": "Outlet",
+          "ServiceName": "Uttag kontor och litet rum övervåning",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/29"
+              ],
+              "Listen": [
+                "1/4/29"
+              ],
+              "DPT": "DPT1"
+            }
+          ],
+          "subtype": "SUB_78ec41c9-968d-4085-b464-e8dc090e6cb2"
+        }
+      ],
+      "UUID": "35f021c6-47b7-4805-a7af-aeb2ba77328c"
+    },
+    {
+      "DeviceName": "Uttag Gästrum, Rubens, Badrum",
+      "Services": [
+        {
+          "ServiceType": "Outlet",
+          "ServiceName": "Uttag Gästrum, Rubens, Badrum",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/25"
+              ],
+              "Listen": [
+                "1/4/25"
+              ],
+              "DPT": "DPT1"
+            }
+          ],
+          "subtype": "SUB_f6891773-efab-4cda-9b03-0543a3188972"
+        }
+      ],
+      "UUID": "fed2cf56-7685-4dd9-9749-f635a04c0f3d"
+    },
+    {
+      "DeviceName": "Dummy 14",
+      "Services": [
+        {
+          "ServiceType": "Outlet",
+          "ServiceName": "Dummy 14",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/30"
+              ],
+              "Listen": [
+                "1/4/30"
+              ],
+              "DPT": "DPT1"
+            }
+          ],
+          "subtype": "SUB_0a1f9073-4e63-407f-b0c2-032ad8ff2ff7"
+        }
+      ],
+      "UUID": "60db1e96-cdb7-48c2-980e-2c42aa5fa955"
+    },
+    {
+      "DeviceName": "Dummy 18",
+      "Services": [
+        {
+          "ServiceType": "Outlet",
+          "ServiceName": "Dummy 18",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/34"
+              ],
+              "Listen": [
+                "1/4/34"
+              ],
+              "DPT": "DPT1"
+            }
+          ],
+          "subtype": "SUB_ca3a58e6-56ac-4889-8430-c99400d27393"
+        }
+      ],
+      "UUID": "4310beda-7804-46e6-a9db-067584761439"
+    },
+    {
+      "DeviceName": "Entré Tak",
+      "Services": [
+        {
+          "ServiceType": "Lightbulb",
+          "ServiceName": "Entré Tak",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/0"
+              ],
+              "Listen": [
+                "1/4/0"
+              ],
+              "DPT": "DPT1"
+            },
+            {
+              "Type": "Brightness",
+              "Set": [
+                "1/1/0"
+              ],
+              "Listen": [
+                "1/3/0"
+              ],
+              "DPT": "DPT5.001"
+            }
+          ],
+          "subtype": "SUB_a1e1f565-00ce-4a69-a845-934ded3a6554"
+        }
+      ],
+      "UUID": "2eb755e5-eb28-4b7d-8ae6-5d175a185733"
+    },
+    {
+      "DeviceName": "Badrum Nere Tak",
+      "Services": [
+        {
+          "ServiceType": "Lightbulb",
+          "ServiceName": "Badrum Nere Tak",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/18"
+              ],
+              "Listen": [
+                "1/4/18"
+              ],
+              "DPT": "DPT1"
+            },
+            {
+              "Type": "Brightness",
+              "Set": [
+                "1/1/1"
+              ],
+              "Listen": [
+                "1/3/1"
+              ],
+              "DPT": "DPT5.001"
+            }
+          ],
+          "subtype": "SUB_c752e4ae-e894-4d1a-818c-54229334afed"
+        }
+      ],
+      "UUID": "f50990c7-9c5d-421d-b9a5-1ded6a0b142f"
+    },
+    {
+      "DeviceName": "Rubens Fönster",
+      "Services": [
+        {
+          "ServiceType": "Lightbulb",
+          "ServiceName": "Rubens Fönster",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/23"
+              ],
+              "Listen": [
+                "1/4/23"
+              ],
+              "DPT": "DPT1"
+            },
+            {
+              "Type": "Brightness",
+              "Set": [
+                "1/1/18"
+              ],
+              "Listen": [
+                "1/3/18"
+              ],
+              "DPT": "DPT5.001"
+            }
+          ],
+          "subtype": "SUB_408bd069-c7c1-4ae3-a0f1-a3e6b17fbb35"
+        }
+      ],
+      "UUID": "a633048d-fc23-4b33-8973-4f1bcf7fb4cf"
+    },
+    {
+      "DeviceName": "Entré Vägg",
+      "Services": [
+        {
+          "ServiceType": "Lightbulb",
+          "ServiceName": "Entré Vägg",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/24"
+              ],
+              "Listen": [
+                "1/4/24"
+              ],
+              "DPT": "DPT1"
+            },
+            {
+              "Type": "Brightness",
+              "Set": [
+                "1/1/19"
+              ],
+              "Listen": [
+                "1/3/19"
+              ],
+              "DPT": "DPT5.001"
+            }
+          ],
+          "subtype": "SUB_a5b4eade-4be3-4852-b499-4851c72768ad"
+        }
+      ],
+      "UUID": "f759357d-0748-47f2-a7e9-6b1b5f51d563"
+    },
+    {
+      "DeviceName": "Gästrum Tak",
+      "Services": [
+        {
+          "ServiceType": "Lightbulb",
+          "ServiceName": "Gästrum Tak",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/17"
+              ],
+              "Listen": [
+                "1/4/17"
+              ],
+              "DPT": "DPT1"
+            },
+            {
+              "Type": "Brightness",
+              "Set": [
+                "1/1/15"
+              ],
+              "Listen": [
+                "1/3/15"
+              ],
+              "DPT": "DPT5.001"
+            }
+          ],
+          "subtype": "SUB_a47b3452-e85a-4176-a4a5-74bd4420694a"
+        }
+      ],
+      "UUID": "500d2d95-7100-48b5-94e6-d7ae63b63236"
+    },
+    {
+      "DeviceName": "Rubens Tak",
+      "Services": [
+        {
+          "ServiceType": "Lightbulb",
+          "ServiceName": "Rubens Tak",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/19"
+              ],
+              "Listen": [
+                "1/4/19"
+              ],
+              "DPT": "DPT1"
+            },
+            {
+              "Type": "Brightness",
+              "Set": [
+                "1/1/16"
+              ],
+              "Listen": [
+                "1/3/16"
+              ],
+              "DPT": "DPT5.001"
+            }
+          ],
+          "subtype": "SUB_4cfee8ec-0f47-41ac-a1a6-cdc72a6fecef"
+        }
+      ],
+      "UUID": "21d9bc7f-cacb-416d-a0fb-c3381b62117b"
+    },
+    {
+      "DeviceName": "Gästrum Fönster",
+      "Services": [
+        {
+          "ServiceType": "Lightbulb",
+          "ServiceName": "Gästrum Fönster",
+          "Characteristics": [
+            {
+              "Type": "On",
+              "Set": [
+                "1/0/22"
+              ],
+              "Listen": [
+                "1/4/22"
+              ],
+              "DPT": "DPT1"
+            },
+            {
+              "Type": "Brightness",
+              "Set": [
+                "1/1/17"
+              ],
+              "Listen": [
+                "1/3/17"
+              ],
+              "DPT": "DPT5.001"
+            }
+          ],
+          "subtype": "SUB_2cb16c10-83a1-4705-bcd9-76d4c239db9e"
+        }
+      ],
+      "UUID": "ab15018f-0a33-4cc1-9444-4cfaac38ab72"
+    }
+  ],
+  "GroupAddresses": []
+}

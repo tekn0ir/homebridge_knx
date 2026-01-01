@@ -1,0 +1,25 @@
+{
+  "bridge": {
+    "name": "Silver-Homebridge_KNX",
+    "username": "CC:22:BE:EF:CE:36",
+    "port": 52235,
+    "pin": "017-45-266",
+    "manufacturer": "@tekn0ir",
+    "model": "Silverudden",
+    "serialNumber": "0.1.0",
+    "advertiser": "avahi"
+  },
+  "accessories": [],
+  "platforms": [
+    {
+      "name": "Config",
+      "platform": "config",
+      "port": 8581,
+      "theme": "orange"
+    },
+    {
+      "name": "KNX",
+      "platform": "KNX"
+    }
+  ]
+}
